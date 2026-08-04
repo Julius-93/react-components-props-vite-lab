@@ -92,3 +92,84 @@ If the article takes 30 minutes or longer to read:
 
 There aren't tests for this feature, so you'll have to rely on running the code
 in the browser to see if your implementation works!
+
+# My Solution
+
+## Component Hierarchy
+
+```text
+App
+├── Header
+├── About
+└── ArticleList
+    └── Article
+```
+
+## Components Created
+
+The following React components were created for this lab:
+
+- **App** – Root component that imports the blog data and passes props to child components.
+- **Header** – Displays the blog title.
+- **About** – Displays the blog logo and description.
+- **ArticleList** – Receives the posts array and renders an `Article` component for each blog post.
+- **Article** – Displays an individual blog post's title, date, and preview.
+
+## How to Run the Project
+
+1. Clone the repository.
+2. Install the project dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to:
+
+```text
+http://localhost:5173
+```
+
+## Running the Tests
+
+Run the project's tests with:
+
+```bash
+npm test
+```
+
+or, depending on your configuration:
+
+```bash
+npm run test
+```
+
+## Screenshot
+
+Add a screenshot of the completed application here before submitting.
+
+Example:
+
+```md
+![Completed Blog Site](./screenshots/blog-home.png)
+```
+
+## Code Documentation
+
+The following components include comments describing their purpose and relationships:
+
+- `App.jsx`
+- `Header.jsx`
+- `About.jsx`
+- `ArticleList.jsx`
+- `Article.jsx`
+
+## Author
+
+**Julius Irungu**
